@@ -46,12 +46,6 @@ body{
   margin-bottom: 137px;
 }
 
-.radio-btn{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .basic{
   width: 350px;
   background: #FFFFFF;
@@ -149,7 +143,7 @@ body{
   text-decoration: none;
   padding: 14px 66px;
   border: 2px solid transparent;
-  background-color: #5b69d4;
+  background-color: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
   color: #FFFFFF;
   display: flex;
   justify-content: center;
