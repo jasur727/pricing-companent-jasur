@@ -1,0 +1,254 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+      url('../fonts/Montserrat-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container{
+  max-width: 1150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  font-family: 'Montserrat',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.pricing-content{
+  display: flex;
+  align-items: center;
+}
+
+.pricing-heading{
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #6E728E;
+  margin-top: 71px;
+  margin-bottom: 137px;
+}
+
+.radio-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.basic{
+  width: 350px;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
+  border-radius: 10px 0px 0px 10px;
+  padding: 31px;
+}
+
+.basic-heading{
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #6E728E;
+  
+}
+
+.basic-item{
+  font-size: 40px;
+  line-height: 59px;
+  text-align: center;
+  letter-spacing: -1.2px;
+  color: #4A4D60;
+}
+
+.basic-money{
+  font-size: 72px;
+  line-height: 71px;
+  letter-spacing: -2.16px;
+  color: #4A4D60;
+}
+
+.basic-strong::before{
+  content: '';
+  display: block;
+  width: 288px;
+  height: 1px;
+  background-color: rgba(110, 114, 142, 1);
+  margin-bottom: 12px;
+  opacity: 0.25;
+}
+
+.basic-strong{
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #6E728E;
+}
+
+.basic-strong::after{
+  content: '';
+  display: block;
+  width: 288px;
+  height: 1px;
+  background-color: rgba(110, 114, 142, 1);
+  margin-top: 12px;
+  opacity: 0.25;
+}
+
+.basic-users{
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #6E728E;
+  margin: 0;
+  padding: 0;
+}
+
+.basic-users::after{
+  content: '';
+  display: block;
+  width: 288px;
+  height: 1px;
+  background-color: rgba(110, 114, 142, 1);
+  margin-top: 12px;
+  opacity: 0.25;
+}
+
+.basic-send{
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #6E728E;
+}
+
+.basic-send::after{
+  content: '';
+  display: block;
+  width: 288px;
+  height: 1px;
+  background-color: rgba(110, 114, 142, 1);
+  margin-top: 12px;
+  opacity: 0.25;
+}
+
+.basic-link{
+  text-decoration: none;
+  padding: 14px 66px;
+  border: 2px solid transparent;
+  background-color: #5b69d4;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 1.39286px;
+  border-radius: 6px;
+  transition: background-color 0.5s ease,color 0.5s ease;
+  margin-top: 32px;
+}
+
+.basic-link:hover{
+  padding: 14px 66px;
+  border: 2px solid #5b69d4;
+  color: #5b69d4;
+  background-color: #fff;
+}
+
+.professional{
+  background: linear-gradient(135.06deg, #A2A7F0 -0.05%, #696EDD 100.05%);
+  box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
+  border-radius: 10px;
+  width: 350px;
+  padding: 55px 31px;
+}
+
+.professional-heading{
+  color: #fff;
+}
+
+.professional-item{
+  color: #fff;
+}
+.professional-money{
+  color: #fff;
+}
+
+.professional-strong::before{
+  content: '';
+  display: block;
+  width: 288px;
+  height: 1px;
+  background-color: #FFFFFF;
+  margin-top: 12px;
+  opacity: 0.25;
+}
+
+.professional-strong{
+  color: #fff;
+}
+
+.professional-strong::after{
+  content: '';
+  display: block;
+  width: 288px;
+  height: 1px;
+  background-color: #FFFFFF;
+  margin-top: 12px;
+  opacity: 0.25;
+}
+
+.professional-users{
+  color: #fff;
+}
+
+.professional-users::after{
+  content: '';
+  display: block;
+  width: 288px;
+  height: 1px;
+  background-color: #FFFFFF;
+  margin-top: 12px;
+  opacity: 0.25;
+}
+
+.professional-send{
+  color: #fff;
+}
+
+.professional-send::after{
+  content: '';
+  display: block;
+  width: 288px;
+  height: 1px;
+  background-color: #FFFFFF;
+  margin-top: 12px;
+  opacity: 0.25;
+}
+
+.professional-link{
+  background-color: #fff;
+  color: #5b69d4;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.professional-link:hover{
+  background-color: #5b69d4;
+  color: #fff;
+  padding: 14px 66px;
+  border: 2px solid #fff;
+}
